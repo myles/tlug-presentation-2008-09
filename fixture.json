@@ -1,0 +1,512 @@
+[
+	{
+		"model": "election.district",
+		"pk": 1,
+		"fields": {
+			"title": "Beaches-East York",
+			"slug": "beaches-east-york",
+			"current_incumbent": "Maria Minna",
+			"population": 104831,
+			"electors": 72844
+		}
+	},
+	{
+		"model": "election.district",
+		"pk": 2,
+		"fields": {
+			"title": "Davenport",
+			"slug": "davenport",
+			"current_incumbent": "Mario Silva",
+			"population": 104615,
+			"electors": 64599
+		}
+	},
+	{
+		"model": "election.district",
+		"pk": 3,
+		"fields": {
+			"title": "Don Valley West",
+			"slug": "don-valley-west",
+			"current_incumbent": "John Godfrey",
+			"population": 117083,
+			"electors": 78824
+		}
+	},
+	{
+		"model": "election.district",
+		"pk": 4,
+		"fields": {
+			"title": "Eglinton-Lawrence",
+			"slug": "eglinton-lawrence",
+			"current_incumbent": "Joe Volpe",
+			"population": 110066,
+			"electors": 73201
+		}
+	},
+	{
+		"model": "election.district",
+		"pk": 5,
+		"fields": {
+			"title": "Parkdale-High Park",
+			"slug": "parkdale-high-park",
+			"current_incumbent": "Peggy Nash",
+			"population": 102142,
+			"electors": 70956
+		}
+	},
+	{
+		"model": "election.district",
+		"pk": 6,
+		"fields": {
+			"title": "St. Paul's",
+			"slug": "st-pauls",
+			"current_incumbent": "Carolyn Bennett",
+			"population": 111131,
+			"electors": 78575
+		}
+	},
+	{
+		"model": "election.district",
+		"pk": 7,
+		"fields": {
+			"title": "Toronto Centre",
+			"slug": "toronto-centre",
+			"current_incumbent": "Bob Rae",
+			"population": 121407,
+			"electors": 84898
+		}
+	},
+	{
+		"model": "election.district",
+		"pk": 8,
+		"fields": {
+			"title": "Toronto-Danforth",
+			"slug": "toronto-danforth",
+			"current_incumbent": "Jack Layton",
+			"population": 103655,
+			"electors": 72948
+		}
+	},
+	{
+		"model": "election.district",
+		"pk": 9,
+		"fields": {
+			"title": "Trinity-Spadina",
+			"slug": "trinity-spadina",
+			"current_incumbent": "Olivia Chow",
+			"population": 115361,
+			"electors": 85338
+		}
+	},
+	{
+		"model": "election.district",
+		"pk": 10,
+		"fields": {
+			"title": "York South-Weston",
+			"slug": "york-south-weston",
+			"current_incumbent": "Alan Tonks",
+			"population": 114458,
+			"electors": 67563
+		}
+	},
+	{
+		"model": "election.party",
+		"pk": 1,
+		"fields": {
+			"title": "Conservative",
+			"slug": "conservative"
+		}
+	},
+	{
+		"model": "election.party",
+		"pk": 2,
+		"fields": {
+			"title": "Liberal",
+			"slug": "liberal"
+		}
+	},
+	{
+		"model": "election.party",
+		"pk": 3,
+		"fields": {
+			"title": "New Democratic Party",
+			"slug": "ndp"
+		}
+	},
+	{
+		"model": "election.party",
+		"pk": 4,
+		"fields": {
+			"title": "Green",
+			"slug": "green"
+		}
+	},
+	{
+		"model": "election.party",
+		"pk": 5,
+		"fields": {
+			"title": "Independent",
+			"slug": "independent"
+		}
+	},
+	{
+		"model": "election.candidate",
+		"pk": 1,
+		"fields": {
+			"first_name": "Caroline",
+			"last_name": "Alleslev",
+			"party": 1,
+			"district": 1
+		}
+	},
+	{
+		"model": "election.candidate",
+		"pk": 2,
+		"fields": {
+			"first_name": "Theresa",
+			"last_name": "Rodrigues",
+			"party": 1,
+			"district": 2
+		}
+	},
+	{
+		"model": "election.candidate",
+		"pk": 3,
+		"fields": {
+			"first_name": "John",
+			"last_name": "Carmichael",
+			"party": 1,
+			"district": 3
+		}
+	},
+	{
+		"model": "election.candidate",
+		"pk": 4,
+		"fields": {
+			"first_name": "Joe",
+			"last_name": "Oliver",
+			"party": 1,
+			"district": 4
+		}
+	},
+	{
+		"model": "election.candidate",
+		"pk": 5,
+		"fields": {
+			"first_name": "Jilian",
+			"last_name": "Saweczko",
+			"party": 1,
+			"district": 5
+		}
+	},
+	{
+		"model": "election.candidate",
+		"pk": 6,
+		"fields": {
+			"first_name": "Heather",
+			"last_name": "Jewell",
+			"party": 1,
+			"district": 6
+		}
+	},
+	{
+		"model": "election.candidate",
+		"pk": 7,
+		"fields": {
+			"first_name": "Don",
+			"last_name": "Meredith",
+			"party": 1,
+			"district": 7
+		}
+	},
+	{
+		"model": "election.candidate",
+		"pk": 8,
+		"fields": {
+			"first_name": "Chistina",
+			"last_name": "Perreault",
+			"party": 1,
+			"district": 8
+		}
+	},
+	{
+		"model": "election.candidate",
+		"pk": 9,
+		"fields": {
+			"first_name": "Chris",
+			"last_name": "McGirr",
+			"party": 1,
+			"district": 9
+		}
+	},
+	{
+		"model": "election.candidate",
+		"pk": 10,
+		"fields": {
+			"first_name": "Jake",
+			"last_name": "Karns",
+			"party": 1,
+			"district": 10
+		}
+	},
+	{
+		"model": "election.candidate",
+		"pk": 11,
+		"fields": {
+			"first_name": "Maria",
+			"last_name": "Minna",
+			"party": 2,
+			"district": 1
+		}
+	},
+	{
+		"model": "election.candidate",
+		"pk": 12,
+		"fields": {
+			"first_name": "Mario",
+			"last_name": "Silva",
+			"party": 2,
+			"district": 2
+		}
+	},
+	{
+		"model": "election.candidate",
+		"pk": 13,
+		"fields": {
+			"first_name": "Rod",
+			"last_name": "Oliphant",
+			"party": 2,
+			"district": 3
+		}
+	},
+	{
+		"model": "election.candidate",
+		"pk": 14,
+		"fields": {
+			"first_name": "Joe",
+			"last_name": "Volpe",
+			"party": 2,
+			"district": 4
+		}
+	},
+	{
+		"model": "election.candidate",
+		"pk": 15,
+		"fields": {
+			"first_name": "Gerard",
+			"last_name": "Kennedy",
+			"party": 2,
+			"district": 5
+		}
+	},
+	{
+		"model": "election.candidate",
+		"pk": 16,
+		"fields": {
+			"first_name": "Carolyn",
+			"last_name": "Bennett",
+			"party": 2,
+			"district": 6
+		}
+	},
+	{
+		"model": "election.candidate",
+		"pk": 17,
+		"fields": {
+			"first_name": "Bod",
+			"last_name": "Rae",
+			"party": 2,
+			"district": 7
+		}
+	},
+	{
+		"model": "election.candidate",
+		"pk": 18,
+		"fields": {
+			"first_name": "Andrew",
+			"last_name": "Lang",
+			"party": 2,
+			"district": 8
+		}
+	},
+	{
+		"model": "election.candidate",
+		"pk": 19,
+		"fields": {
+			"first_name": "Christin",
+			"last_name": "Innes",
+			"party": 2,
+			"district": 9
+		}
+	},
+	{
+		"model": "election.candidate",
+		"pk": 20,
+		"fields": {
+			"first_name": "Alan",
+			"last_name": "Tonks",
+			"party": 2,
+			"district": 10
+		}
+	},
+	{
+		"model": "election.candidate",
+		"pk": 21,
+		"fields": {
+			"first_name": "Marilyn",
+			"last_name": "Churley",
+			"party": 3,
+			"district": 1
+		}
+	},
+	{
+		"model": "election.candidate",
+		"pk": 22,
+		"fields": {
+			"first_name": "Peter",
+			"last_name": "Ferreira",
+			"party": 3,
+			"district": 2
+		}
+	},
+	{
+		"model": "election.candidate",
+		"pk": 23,
+		"fields": {
+			"first_name": "David",
+			"last_name": "Sparrow",
+			"party": 3,
+			"district": 3
+		}
+	},
+	{
+		"model": "election.candidate",
+		"pk": 24,
+		"fields": {
+			"first_name": "Peggy",
+			"last_name": "Nash",
+			"party": 3,
+			"district": 5
+		}
+	},
+	{
+		"model": "election.candidate",
+		"pk": 25,
+		"fields": {
+			"first_name": "Nanvy",
+			"last_name": "Patchell",
+			"party": 3,
+			"district": 6
+		}
+	},
+	{
+		"model": "election.candidate",
+		"pk": 26,
+		"fields": {
+			"first_name": "El-Farouk",
+			"last_name": "Khaki",
+			"party": 3,
+			"district": 7
+		}
+	},
+	{
+		"model": "election.candidate",
+		"pk": 27,
+		"fields": {
+			"first_name": "Jack",
+			"last_name": "Layton",
+			"party": 3,
+			"district": 8
+		}
+	},
+	{
+		"model": "election.candidate",
+		"pk": 28,
+		"fields": {
+			"first_name": "Olivia",
+			"last_name": "Chow",
+			"party": 3,
+			"district": 9
+		}
+	},
+	{
+		"model": "election.candidate",
+		"pk": 29,
+		"fields": {
+			"first_name": "Zoran",
+			"last_name": "Markovski",
+			"party": 4,
+			"district": 1
+		}
+	},
+	{
+		"model": "election.candidate",
+		"pk": 30,
+		"fields": {
+			"first_name": "Brigtte",
+			"last_name": "Davidson",
+			"party": 4,
+			"district": 2
+		}
+	},
+	{
+		"model": "election.candidate",
+		"pk": 31,
+		"fields": {
+			"first_name": "Georgina",
+			"last_name": "Wilcock",
+			"party": 4,
+			"district": 3
+		}
+	},
+	{
+		"model": "election.candidate",
+		"pk": 32,
+		"fields": {
+			"first_name": "Rod",
+			"last_name": "Rishchynski",
+			"party": 4,
+			"district": 5
+		}
+	},
+	{
+		"model": "election.candidate",
+		"pk": 33,
+		"fields": {
+			"first_name": "Monika",
+			"last_name": "Dutt",
+			"party": 4,
+			"district": 6
+		}
+	},
+	{
+		"model": "election.candidate",
+		"pk": 34,
+		"fields": {
+			"first_name": "Chris",
+			"last_name": "Tindal",
+			"party": 4,
+			"district": 7
+		}
+	},
+	{
+		"model": "election.candidate",
+		"pk": 35,
+		"fields": {
+			"first_name": "Sharon",
+			"last_name": "Howarth",
+			"party": 4,
+			"district": 8
+		}
+	},
+	{
+		"model": "election.candidate",
+		"pk": 36,
+		"fields": {
+			"first_name": "Stephen",
+			"last_name": "LaFrenie",
+			"party": 4,
+			"district": 9
+		}
+	}
+]

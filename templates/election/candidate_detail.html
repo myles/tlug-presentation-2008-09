@@ -1,0 +1,13 @@
+{% extends "election/base_election.html" %}
+
+{% block title %}{{ block.super }} - {{ candidate }}{% endblock %}
+
+{% block content %}
+	<h2>{{ candidate }}</h2>
+	<dl>
+		<dt>Party</dt>
+		<dd><a href="{{ candidate.party.get_absolute_url }}">{{ candidate.party }}</a></dd>
+		<dt>District</dt>
+		<dd><a href="{{ candidate.district.get_absolute_url }}">{{ candidate.district }}</a></dd>
+	</dl>
+{% endblock %}

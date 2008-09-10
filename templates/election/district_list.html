@@ -1,0 +1,12 @@
+{% extends "election/base_election.html" %}
+
+{% block title %}{{ block.super }} - Districts{% endblock %}
+
+{% block content %}
+	<h2>Districts</h2>
+	<ul>
+		{% for district in districts %}
+			<li><a href="{{ district.get_absolute_url }}">{{ district }}</a></li>
+		{% endfor %}
+	</ul>
+{% endblock %}

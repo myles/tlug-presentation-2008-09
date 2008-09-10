@@ -1,0 +1,12 @@
+{% extends "election/base_election.html" %}
+
+{% block title %}{{ block.super }} - Parties{% endblock %}
+
+{% block content %}
+	<h2>Parties</h2>
+	<ul>
+		{% for party in parties %}
+			<li><a href="{{ party.get_absolute_url }}">{{ party }}</a></li>
+		{% endfor %}
+	</ul>
+{% endblock %}

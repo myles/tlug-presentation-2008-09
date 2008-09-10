@@ -1,0 +1,21 @@
+{% extends "election/base_election.html" %}
+
+{% block title %}{{ block.super }} - {{ district }}{% endblock %}
+
+{% block content %}
+	<h2>{{ district }}</h2>
+	
+	<h3>Candidates</h3>
+	<table border="0">
+		<thead>
+			<th>Party</th>
+			<th>Candidate</th>
+		</thead>
+		{% for candidate in district.candidate_set.all %}
+		<tr>
+			<th><a href="{{ candidate.party.get_absolute_url }}">{{ candidate.party }}</a></th>
+			<td>{% if candidate.is_current_incumbent %}<strong><a href="{{ candidate.get_absolute_url }}">{{ candidate }}</a></strong>{% else %}<a href="{{ candidate.get_absolute_url }}">{{ candidate }}</a>{% endif %}</td>
+		</tr>
+		{% endfor %}
+	</table>
+{% endblock %}
