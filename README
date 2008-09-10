@@ -1,1 +1,8 @@
 This is a simple application I created for my TLUG talk on Django.
+
+You are going to want to rename the folder news.
+
+Also to load the demo data:
+
+	python manage.py loaddata ./fixture.json
+
